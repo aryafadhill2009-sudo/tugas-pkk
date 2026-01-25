@@ -51,7 +51,7 @@ const portfolioData = {
         year: '2024',
         category: 'Menu Cetak',
         rating: '⭐⭐⭐⭐⭐ (4.9)',
-        image: 'https://files.catbox.moe/5g7eh2.jpg'
+        image: 'https://files.catbox.moe/i1bg3p.jpeg'
     },
     3: {
         title: '🚚 E-Menu Food Truck',
