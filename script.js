@@ -38,15 +38,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ===== PORTFOLIO MODAL =====
 const portfolioData = {
     1: {
-        title: '☕ Lita Kenalpot',
-        description: 'Desain menu untuk coffee shop dengan konsep minimalis modern. Menggunakan palet warna earthy tone yang mencerminkan kehangatan kopi.',
+            title: 'Desain Menu Premium',
+        description: 'Menu resto keluarga dengan desain yang rapi, informatif, dan mudah dibaca. Mengutamakan tata letak yang nyaman serta visual menu yang menarik untuk meningkatkan pengalaman pelanggan.',
         year: '2024',
         category: 'Menu Digital & Cetak',
         rating: '⭐⭐⭐⭐⭐ (5.0)',
         image: 'https://files.catbox.moe/i1bg3p.jpeg'
     },
     2: {
-        title: '🍽️ Menu Resto Keluarga',
+        title: 'Desain Menu Standard',
         description: 'Desain menu restoran keluarga dengan layout yang mudah dibaca dan foto produk yang menggugah selera.',
         year: '2024',
         category: 'Menu Cetak',
@@ -54,12 +54,12 @@ const portfolioData = {
         image: 'https://files.catbox.moe/i1bg3p.jpeg'
     },
     3: {
-        title: '🚚 E-Menu Food Truck',
+        title: 'Desain Menu Basick',
         description: 'E-menu interaktif dengan QR code untuk food truck. Desain playful dan colorful sesuai target market anak muda.',
         year: '2024',
         category: 'E-Menu & QR Code',
         rating: '⭐⭐⭐⭐⭐ (5.0)',
-        image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600'
+        image: 'https://files.catbox.moe/gol0d3.png'
     }
 };
 
