@@ -43,7 +43,7 @@ const portfolioData = {
         year: '2024',
         category: 'Menu Digital & Cetak',
         rating: '⭐⭐⭐⭐⭐ (5.0)',
-        image: 'https://files.catbox.moe/gkrag3.jpg'
+        image: 'https://files.catbox.moe/i1bg3p.jpeg'
     },
     2: {
         title: '🍽️ Menu Resto Keluarga',
