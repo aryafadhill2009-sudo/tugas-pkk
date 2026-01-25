@@ -1,0 +1,155 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Desain Menu Profesional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+            <div class="logo">✨ MENU DESIGN PRO</div>
+            <nav class="desktop-nav" id="navMenu">
+                <a href="#home" class="nav-link">Beranda</a>
+                <a href="#services" class="nav-link">Layanan</a>
+                <a href="#portfolio" class="nav-link">Portofolio</a>
+                <a href="#pricing" class="nav-link">Harga</a>
+                <a href="#contact" class="cta-button">Konsultasi Gratis</a>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="animate-fade-in">Tingkatkan Penjualan Anda dengan <br><span>Desain Menu Memukau</span></h1>
+            <p class="animate-slide-up">Kami spesialis dalam desain menu fisik, digital, dan website yang terbukti meningkatkan kualitas usaha anda</p>
+            <a href="#pricing" class="cta-primary animate-slide-up">🚀 Lihat Paket Kami</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Layanan Kami</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <div class="service-icon">📋</div>
+                <h3>Menu Cetak (Fisik)</h3>
+                <p>Desain siap cetak untuk buku menu, flyer, atau board restoran/kafe Anda.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">📱</div>
+                <h3>E-Menu & QR Code</h3>
+                <p>Menu digital interaktif yang mudah diakses pelanggan melalui scan QR code.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-icon">🌐</div>
+                <h3>Menu Website Khusus</h3>
+                <p>Pembuatan landing page menu yang responsif dan terintegrasi dengan pemesanan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portofolio Unggulan</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item animate-zoom-in" data-portfolio="1">
+                <img src="https://files.catbox.moe/r1bi28.jpg" alt="Menu Kopi Modern">
+                <div class="portfolio-overlay">
+                    <h3>☕ WOI MANA  GAMBAR NYA                </h3>
+                    <p>Klik untuk lihat detail</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-zoom-in" data-portfolio="2">
+                <img src="https://files.catbox.moe/r1bi28.jpg" alt="Menu Resto Keluarga">
+                <div class="portfolio-overlay">
+                    <h3>🍽️ Menu Resto Keluarga</h3>
+                    <p>Klik untuk lihat detail</p>
+                </div>
+            </div>
+            <div class="portfolio-item animate-zoom-in" data-portfolio="3">
+                <img src="https://files.catbox.moe/r1bi28.jpg" alt="E-Menu Food Truck">
+                <div class="portfolio-overlay">
+                    <h3>🚚 E-Menu Food Truck</h3>
+                    <p>Klik untuk lihat detail</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="cta-secondary">👁️ Lihat Semua Portofolio</a>
+    </section>
+
+    <!-- Modal Portfolio -->
+    <div class="portfolio-modal" id="portfolioModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <img src="" alt="Portfolio" id="modalImage">
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                    <div class="modal-details">
+                        <span class="detail-item">📅 <strong>Tahun:</strong> <span id="modalYear"></span></span>
+                        <span class="detail-item">🎨 <strong>Kategori:</strong> <span id="modalCategory"></span></span>
+                        <span class="detail-item">⭐ <strong>Rating:</strong> <span id="modalRating"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="pricing" class="pricing">
+        <h2>Pilih Paket Terbaik</h2>
+        <div class="pricing-grid">
+            <div class="price-card price-basic">
+                <div class="badge">💼 PAKET BASIC</div>
+                <h3>Paket Basic</h3>
+                <p class="price">Rp 500K</p>
+                <ul>
+                    <li><span class="check">✓</span> Desain 2 Halaman</li>
+                    <li><span class="check">✓</span> 2x Revisi Minor</li>
+                    <li><span class="check">✓</span> File PDF & JPG</li>
+                </ul>
+                <a href="https://wa.me/6283813579374?text=Saya%20tertarik%20dengan%20Paket%20Basic" target="_blank" class="btn-order">🛒 Pesan Sekarang</a>
+            </div>
+
+            <div class="price-card price-premium">
+                <div class="badge-premium">⭐ TERLARIS</div>
+                <div class="badge">👑 PAKET PREMIUM</div>
+                <h3>Paket Premium</h3>
+                <p class="price">Rp 1.5JT</p>
+                <ul>
+                    <li><span class="check">✓</span> Desain Hingga 8 Halaman</li>
+                    <li><span class="check">✓</span> QR Code Menu (Gratis)</li>
+                    <li><span class="check">✓</span> Unlimited Revisi (Minor)</li>
+                    <li><span class="check">✓</span> File Siap Cetak & Digital</li>
+                </ul>
+                <a href="https://wa.me/6283813t79374?text=Saya%20tertarik%20dengan%20Paket%20Premium" target="_blank" class="btn-order btn-order-premium">🚀 Pesan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-bg"></div>
+        <div class="contact-content">
+            <h2>Mari Berdiskusi! 💬</h2>
+            <p>Hubungi kami melalui WhatsApp untuk konsultasi konsep desain menu Anda. Respon cepat!</p>
+            <a href="https://wa.me/6283813579374?text=Halo,%20saya%20ingin%20konsultasi%20desain%20menu" target="_blank" class="whatsapp-cta">
+                💬 Chat via WhatsApp (Respon Cepat)
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Menu Design Pro. Hak Cipta Dilindungi.</p>
+        <p class="footer-sub">Dibuat dengan ❤️ untuk bisnis Anda</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
