@@ -59,7 +59,7 @@ const portfolioData = {
         year: '2024',
         category: 'E-Menu & QR Code',
         rating: '⭐⭐⭐⭐⭐ (5.0)',
-        image: 'https://files.catbox.moe/gol0d3.png'
+        image: 'hhttps://files.catbox.moe/r0f504.jp'
     }
 };
 
